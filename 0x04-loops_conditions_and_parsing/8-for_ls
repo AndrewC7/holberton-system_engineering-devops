@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# print directories
+DIRECTORY="$(ls)"
+for x in $DIRECTORY; do
+	echo "${x#*-}"
+done
