@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#read file fields
+while read LINE; do
+	echo "${LINE}" | cut -d":" -f1,3,6
+done < /etc/passwd
