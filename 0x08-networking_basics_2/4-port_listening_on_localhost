@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# listen on prot 98 local host
+nc -k -l 98
